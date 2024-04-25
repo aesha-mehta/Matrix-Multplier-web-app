@@ -1,0 +1,115 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #333333;
+    margin-top: 0;
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.input-container label {
+    font-weight: bold;
+    margin-right: 10px;
+    color: #333333;
+}
+
+.input-container input[type="number"] {
+    width: 60px;
+    padding: 8px;
+    margin: 0 5px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+.input-container span {
+    font-weight: bold;
+    margin: 0 5px;
+    color: #333333;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+button:active {
+    background-color: #3e8e41;
+}
+
+.matrix-inputs {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.matrix-inputs table {
+    border-collapse: collapse;
+}
+
+.matrix-inputs td {
+    padding: 0;
+}
+
+.matrix-inputs input[type="number"] {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #cccccc;
+    text-align: center;
+    font-size: 14px;
+}
+
+#result table td {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #cccccc;
+    text-align: center;
+    font-size: 14px;
+}
+
+#result table {
+    margin: 0 auto;
+    border-collapse: collapse; /* Add border-collapse property */
+}
+
+#result table td:first-child {
+    border-left: 1px solid #cccccc; /* Add left border for the first column */
+}
+
+#result table td:last-child {
+    border-right: 1px solid #cccccc; /* Add right border for the last column */
+}
+
+#result table tr:last-child td {
+    border-bottom: 1px solid #cccccc; /* Add bottom border for the last row */
+}
