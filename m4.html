@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matrix Multiplier</title>
+    <link rel="stylesheet" href="styles4.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Matrix Multiplier App</h1>
+
+    <div class="input-container">
+        <label for="rowsA">Matrix A:</label>
+        <input type="number" id="rowsA" min="1" placeholder="Rows">
+        <span>*</span>
+        <input type="number" id="colsA" min="1" placeholder="Columns">
+    </div>
+
+    <div id="matrixAInputs" class="matrix-inputs"></div>
+
+    <div class="input-container">
+        <label for="rowsB">Matrix B:</label>
+        <input type="number" id="rowsB" min="1" placeholder="Rows">
+        <span>*</span>
+        <input type="number" id="colsB" min="1" placeholder="Columns">
+    </div>
+
+    <div id="matrixBInputs" class="matrix-inputs"></div>
+
+    <button onclick="createMatrices()">Create Matrices</button>
+
+    <button onclick="multiplyMatrices()">Multiply</button>
+
+    <div id="result" class="matrix-inputs"></div> <!-- Added class "matrix-inputs" to display result in the same format -->
+
+</div>
+
+<script src="script3.js"></script>
+</body>
+</html>
